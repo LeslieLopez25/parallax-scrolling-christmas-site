@@ -615,7 +615,7 @@ img {
         bottom: 12rem;
     }
 
-    .home_trineo {
+    .home__trineo {
         width: 350px;
         bottom: 20rem;
     }
@@ -791,10 +791,18 @@ img {
         bottom: 14rem;
     }
 
-    .home_trineo {
+    .home__trineo {
         width: 500px;
+        left: 27rem;
         bottom: 28rem;
     }
 }
 
 /* For 2K+ resolutions */
+@media screen and (min-width: 1700px) {
+    .home {
+        max-width: 1280px;
+        height: 990px;
+        margin-inline: auto;
+    }
+}
